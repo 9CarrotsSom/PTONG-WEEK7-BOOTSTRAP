@@ -11,22 +11,152 @@
 
 <body>
     <div class="container">
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
+        <h1 class="text-center mt-5 ">
+            หน้ารับสมัครนักศึกษาเเพทย์
+        </h1>
+        <form class="mt-10 mt-5 d-flex flex-column">
+            <h3 class="mb-3">ข้อมูลนักเรียน</h3>
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label>คำนำหน้า</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-3">
+                    <label>ชื่อ</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-4">
+                    <label>นามสกุล</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-3">
+                    <label>ชื่อเล่น</label>
+                    <input type="text" class="form-control text-center">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+            <div class="row mb-3">
+                <div class="col-4">
+                    <label>เลขบัตรประชาชน</label>
+                    <input type="number" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>เกิดวันที่ (ปี ค.ศ.)</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>เชื้อชาติ</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>สัญชาติ</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>ศาสนา</label>
+                    <input type="text" class="form-control text-center">
+                </div>
             </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <h3 class="mb-3 mt-4">ที่อยู่ปัจจุบัน</h3>
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label>บ้านเลขที่</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>หมู่ที่</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-4">
+                    <label>หมู่บ้าน</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>ถนน</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>ซอย</label>
+                    <input type="text" class="form-control text-center">
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label>แขวง/ตำบล</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>เขต/อำเภอ</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-3">
+                    <label>จังหวัด</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>รหัสไปรษณีย์</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-3">
+                    <label>โทรศัพท์มือถือนักเรียน</label>
+                    <input type="text" placeholder="0xxxxxxxxxx" class="form-control text-center">
+                </div>
+            </div>
+            <h3 class="mb-3 mt-4">การศึกษา</h3>
+            <div class="row mb-3">
+                <div class="col-4">
+                    <label>โรงเรียนเดิม</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>แขวง/ตำบล</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>เขต/อำเภอ</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>จังหวัด</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>รหัสไปรษณีย์</label>
+                    <input type="number" class="form-control text-center">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-2">
+                    <label>เกรด</label>
+                    <input type="number" step="0.01" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>ประเภทของโรงเรียน</label>
+                    <input type="text" class="form-control text-center">
+                </div>
+                <div class="col-2">
+                    <label>ระดับการศึกษา</label>
+                    <input type="text" step="0.01" class="form-control text-center">
+                </div>
+            </div>
+            <h3 class="mb-3 mt-4">อัปโหลดรูปนักเรียน</h3>
+            <div class="row mb-3">
+                <div class="col-5">
+                    <label>รูปถ่ายหน้าตรง</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Upload</span>
+                        </div>
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" >
+                          <label class="custom-file-label">Choose file</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-3 d-flex flex-row mx-auto">
+                <button type="submit" class="btn btn-primary btn-lg px-5">Submit</button>
+            </div>
         </form>
     </div>
 </body>
